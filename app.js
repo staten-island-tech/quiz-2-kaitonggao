@@ -5,6 +5,12 @@
 3. Then change the scores to show different winners. Don't forget to take into account there might be a draw (the same average score)
 */
 
+/*
+let Johnscores = [89,120,103]
+let Mike scores = [116,94,123];
+let averageJohn = (teamJohn[0] + teamJohn[1] + teamJohn[2]) / 3;
+let averageMike = (teamMike[0] + teamMike[1] + teamMike[2]) / 3;*/
+
 let Johngame1 = 89;
 let Johngame2 = 120;
 let Johngame3 = 103;
@@ -30,3 +36,4 @@ else if (Mikeaverage > Johnaverage){
 else {
     console.log (`John has a greater average, ${Johnaverage}, than Mike.`);
 }
+
